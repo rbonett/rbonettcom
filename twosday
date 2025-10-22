@@ -1,0 +1,65 @@
+<html lang="en-US"><head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+    .root {
+        background-color: #131313;
+        color:white; 
+        display: block;
+        font-family: "Roboto Slab", serif;
+        line-height: 1.9rem;
+        margin: 10% 20%;
+    }
+    h1 {
+        font-size: 2.4rem;
+        font-weight: 300;
+    }
+    p {
+        font-size: 1.375rem;
+        font-weight: 150;
+    }
+    td {
+        border-color: white;
+        border: 1px solid;
+        font-weight: 200;
+        padding-left: 20px;
+    }
+    table {    
+        width: 100%;
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+
+<body class="root">
+  <h1>Twosday</h1>
+<div>
+
+<p>I was curious the other day and wondered if 2/2/2 was a Tuesday. A Tuesday Twosday eh? I plugged the date into a calculator and was mildly disappointed to learn that it was a Thursday. </p>
+
+<p>But there were many other dates to check, so I continued:</p>
+
+<figure><table><tbody><tr><td>2/22/2 </td><td>Wednesday</td></tr><tr><td>2/2/22 </td><td>Monday</td></tr><tr><td>2/22/22 </td><td>Sunday</td></tr><tr><td>2/2/222 </td><td>Saturday</td></tr><tr><td>2/22/222 </td><td>Friday</td></tr></tbody></table></figure>
+
+<p>That’s it for the past! Just how far in the future do we have to wait for a Tuesday Twosday!? </p>
+
+<figure><table><tbody><tr><td>2/2/2222</td><td>Saturday</td></tr><tr><td>2/22/2222</td><td>Friday</td></tr><tr><td>2/2/22222</td><td>Saturday</td></tr><tr><td>2/22/22222</td><td>Friday</td></tr></tbody></table></figure>
+
+<p>Hold on, now we’re just repeating ourselves. But will it repeat forever? </p>
+
+<p>Normally the day of week for any given day of the month progresses by 1 every year, except on leap years when it progresses by two. We’ll have a leap year every four years, unless the year is divisible by 100, unless unless the year is divisible by 400. </p>
+
+<p>The Gregorian calendar cycle lasts 400 years. This gives us a total of 400 (base) + 97 (leap) = 497 day-of-week-progressions per Gregorian cycle. 497 divided by 7 is a round 71 – the cycle loops back to the same day of week!</p>
+
+<p>Alas, as we continue our search for Twosdays we will always add multiples of 400 years to the date, and the day-of-the-week for our Twosdays will remain forever Saturday and Friday.</p>
+
+<p>It amuses me that we’ve seen every other day-of-the-week get its own Twosday – go figure!</p>
+
+<p>There’s more to the story though; as luck would turn out 2/2/2022 was a Tuesday! Many people celebrated that as Twosday and who knows, maybe everyone’ll come back in four hundred years for round two! ; )</p>
+
+<p></p>
+
+</div>
+</body>
+</html>
