@@ -31,5 +31,5 @@ static_sites:
   git:
     branch: main
     repo_clone_url: https://github.com/rbonett/rbonettcom.git
-  index_document: pages/twosday
+  index_document: pages/twosday.html
   name: twosday
