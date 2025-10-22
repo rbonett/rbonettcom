@@ -1,6 +1,10 @@
 alerts:
 - rule: DEPLOYMENT_FAILED
 - rule: DOMAIN_FAILED
+domains:
+- domain: richardbonett.com
+  type: PRIMARY
+  zone: richardbonett.com
 features:
 - buildpack-stack=ubuntu-22
 ingress:
@@ -8,15 +12,11 @@ ingress:
   - component:
       name: rbonettcom
     match:
-      authority:
-        exact: ""
       path:
         prefix: /
   - component:
       name: twosday
     match:
-      authority:
-        exact: ""
       path:
         prefix: /twosday
 name: rbonettcom
@@ -32,5 +32,5 @@ static_sites:
     branch: main
     repo_clone_url: https://github.com/rbonett/rbonettcom.git
   index_document: twosday.html
-  source_dir: pages
   name: twosday
+  source_dir: pages
